@@ -23,13 +23,13 @@ import { PostListComponent } from './posts/post-list/post-list.component';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     BrowserAnimationsModule,
     MatInputModule,
     MatCardModule,
     MatButtonModule,
     MatToolbarModule,
-    MatExpansionModule,
-    FormsModule
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
